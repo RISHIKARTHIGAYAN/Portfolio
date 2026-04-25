@@ -2,7 +2,7 @@
   "name": "rishi-portfolio",
   "version": "2.0.0",
   "type": "module",
-  "homepage": "https://RISHIKARTHIGAYAN.github.io/Portfolio",
+  "homepage": "https://rishikarthigayan.github.io/Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
