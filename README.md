@@ -131,7 +131,7 @@ npm run build
 
 ## 📬 Contact
 
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+* 📧 Email: [your-email@example.com](mailto:rishikarthigayan@gmail.com)
 * 🔗 LinkedIn: https://www.linkedin.com/in/rishi-karthigayan-s-44b968215/
 * 💻 GitHub: https://github.com/RISHIKARTHIGAYAN
 * 🧠 LeetCode: https://leetcode.com/u/RISHIKARTHIGAYAN/
