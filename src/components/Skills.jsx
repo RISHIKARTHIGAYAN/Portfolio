@@ -1,12 +1,42 @@
 import { useReveal } from './useReveal'
 
 const groups = [
-  { label: 'Languages', items: ['Python', 'Java', 'C++', 'SQL', 'JavaScript', 'Scala', 'HTML/CSS'] },
-  { label: 'AI / ML', items: ['CNN', 'LSTM', 'RNN', 'Transformers', 'Computer Vision', 'Signal Processing', 'Deep Learning', 'RL'] },
-  { label: 'Frameworks', items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'ReactJS', 'Flask', 'OpenCV', 'PySpark'] },
-  { label: 'Databases', items: ['MySQL', 'PostgreSQL', 'MongoDB', 'MongoDB Atlas'] },
-  { label: 'Data & Viz', items: ['Pandas', 'NumPy', 'Tableau', 'Power BI', 'Matplotlib', 'Apache Spark'] },
-  { label: 'Tools & Platforms', items: ['Git', 'GitHub', 'Jupyter', 'Google Colab', 'AWS', 'Linux', 'VS Code'] },
+  { 
+    label: 'Languages', 
+    items: ['Python', 'Java', 'C++', 'SQL', 'JavaScript', 'Scala', 'HTML/CSS'] 
+  },
+  { 
+    label: 'AI / ML', 
+    items: ['CNN', 'LSTM', 'RNN', 'Transformers', 'Computer Vision', 'Signal Processing', 'Deep Learning', 'RL'] 
+  },
+  { 
+    label: 'Generative AI', 
+    items: [
+      'LLMs', 
+      'Prompt Engineering', 
+      'RAG (Retrieval-Augmented Generation)', 
+      'Fine-tuning', 
+      'Embeddings', 
+      'Hugging Face Transformers', 
+      'LangChain'
+    ] 
+  },
+  { 
+    label: 'Frameworks', 
+    items: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'ReactJS', 'Flask', 'OpenCV', 'PySpark'] 
+  },
+  { 
+    label: 'Databases', 
+    items: ['MySQL', 'PostgreSQL', 'MongoDB', 'MongoDB Atlas'] 
+  },
+  { 
+    label: 'Data & Viz', 
+    items: ['Pandas', 'NumPy', 'Tableau', 'Power BI', 'Matplotlib', 'Apache Spark'] 
+  },
+  { 
+    label: 'Tools & Platforms', 
+    items: ['Git', 'GitHub', 'Jupyter', 'Google Colab', 'AWS', 'Linux', 'VS Code'] 
+  },
 ]
 
 export default function Skills() {
