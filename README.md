@@ -88,18 +88,6 @@ VS Code
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots of your portfolio here*
-
----
-
-## 🔗 Live Demo
-
-👉 (Add your GitHub Pages link here after deployment)
-
----
-
 ## ⚙️ Installation & Setup
 
 Clone the repository:
