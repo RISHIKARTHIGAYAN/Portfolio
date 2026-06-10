@@ -35,11 +35,11 @@ const projects = [
   },
   {
     num: '05',
-    title: 'Cricket Live Web App',
-    type: 'Full-Stack',
-    desc: 'Full-stack live scores, stats, and rankings for 10+ international teams. Flask backend with 8 REST endpoints under 150ms. ReactJS frontend hitting 95+ Lighthouse score.',
-    tags: ['ReactJS', 'Flask', 'REST API', 'MySQL', 'JavaScript'],
-    color: '#a78bfa',
+    title: 'GenAI Resume Intelligence Assistant',
+    type: 'Generative AI',
+    desc: 'Built an end-to-end RAG-powered resume intelligence platform leveraging LangChain, FAISS, and open-source LLMs for semantic resume-job matching, ATS scoring, skill-gap analysis, and automated candidate evaluation.',
+    tags: ['Python', 'LangChain', 'FAISS', 'RAG', 'Hugging Face'],
+    color: '#10b981',
   },
   {
     num: '06',
