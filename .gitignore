@@ -1,0 +1,16 @@
+# Local Python environment
+.venv/
+venv/
+
+# Node dependencies and Vite cache
+node_modules/
+node_modules/.vite/
+
+# Local environment variables
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

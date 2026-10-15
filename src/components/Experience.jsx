@@ -9,14 +9,14 @@ const jobs = [
     period: 'Jul 2025 – Feb 2026',
     location: 'Kollam, On-site',
     bullets: [
-      'Built a 5-class Motor Imagery BCI (Forward/Backward/Left/Right/Stop) using Riemannian geometry + SVM — 92.83% cross-validated accuracy, Cohen\'s Kappa 0.911 across 3,750 EEG trials from 10 subjects.',
-      'Engineered full EEG preprocessing pipeline: bandpass 1–40 Hz, ICA artifact removal, Surface Laplacian spatial filtering. Feature fusion combining Riemannian covariance with PLV connectivity — 0.117ms inference latency.',
-      'Designed 4-layer modular software architecture (Signal Acquisition → Classification → Command Translation → Hardware Control), interfacing OpenBCI Cyton with Arduino. 98.23% real-time simulation accuracy via LOSO cross-session eval.',
+      'Built an end-to-end 5-class Motor Imagery Brain-Computer Interface using Riemannian geometry and SVM, achieving 92.83% mean cross-validated accuracy across 3,750 EEG trials from 10 subjects and 3 sessions.',
+      'Implemented EEG preprocessing using 1–40 Hz bandpass filtering, ICA artifact removal, and Surface Laplacian spatial filtering, combining Riemannian covariance and PLV connectivity features with 0.117 ms inference latency.',
+      'Designed a modular architecture spanning signal acquisition, classification, command translation, and hardware control, integrating OpenBCI Cyton with Arduino and achieving 98.23% simulation accuracy.',
     ],
     tags: ['EEG', 'BCI', 'Riemannian Geometry', 'SVM', 'ICA', 'OpenBCI', 'Signal Processing'],
   },
   {
-    role: 'AI Intern',
+    role: 'Artificial Intelligence Intern',
     company: 'Pantech Solutions',
     short: 'Pantech / AI',
     period: 'Apr – Sep 2021',
@@ -28,7 +28,7 @@ const jobs = [
     tags: ['CNN', 'YOLO', 'Flask', 'Computer Vision', 'Python', 'OpenCV'],
   },
   {
-    role: 'ML Intern',
+    role: 'Machine Learning Intern',
     company: 'Pantech Solutions',
     short: 'Pantech / ML',
     period: 'Sep 2021 – Feb 2022',

@@ -3,7 +3,7 @@ import { useReveal } from './useReveal'
 const stats = [
   { n: '92.83%', sub: 'BCI accuracy' },
   { n: '97.75%', sub: 'Deepfake detection' },
-  { n: '3', sub: 'Publications' },
+  { n: '2 + 1', sub: 'Published + accepted' },
   { n: '0.117ms', sub: 'Inference latency' },
 ]
 
@@ -49,15 +49,15 @@ export default function About() {
             </h2>
 
             <p style={{ fontSize: '0.92rem', color: 'var(--text-dim)', lineHeight: 1.9, marginBottom: '1.25rem' }}>
-              I'm a final-year M.Tech AI student at Amrita Vishwa Vidyapeetham, with a research internship at HutLabs where I built a 5-class Motor Imagery BCI system — one of the highest-accuracy implementations on comparable EEG datasets.
+              I'm an M.Tech graduate in Artificial Intelligence from Amrita Vishwa Vidyapeetham. During my research internship at HutLabs, I built a 5-class Motor Imagery Brain-Computer Interface using Riemannian geometry and SVM, achieving 92.83% mean cross-validated accuracy across 3,750 EEG trials.
             </p>
             <p style={{ fontSize: '0.92rem', color: 'var(--text-dim)', lineHeight: 1.9, marginBottom: '2rem' }}>
-              My work spans signal processing, computer vision, and large-scale streaming ML. I've published in Springer and IOP, and my M.Tech thesis on deepfake detection has been accepted at RECCAP 2026.
+              My work spans computer vision, deep learning, generative AI, and real-time data engineering. My projects include deepfake detection and localization, local-first agentic AI, resume intelligence, and fraud detection.
             </p>
 
             {/* Education cards */}
             {[
-              { deg: 'M.Tech Artificial Intelligence', school: 'Amrita Vishwa Vidyapeetham', year: '2024–2026', grade: '8.11 CGPA' },
+              { deg: 'M.Tech Artificial Intelligence', school: 'Amrita Vishwa Vidyapeetham', year: '2024–2026', grade: '8.08 CGPA' },
               { deg: 'B.Tech Artificial Intelligence', school: 'Amrita Vishwa Vidyapeetham', year: '2020–2024', grade: '8.21 CGPA' },
             ].map((e, i) => (
               <div key={i} style={{
