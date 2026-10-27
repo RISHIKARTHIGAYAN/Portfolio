@@ -323,7 +323,7 @@ export default function Hero() {
                 lineHeight: 1.6,
               }}
             >
-              2 published papers + 1 accepted
+              3 published papers
               <br />
               <span style={{ color: 'var(--text-dim)' }}>
                 Springer · IOP · RECCAP 2026
