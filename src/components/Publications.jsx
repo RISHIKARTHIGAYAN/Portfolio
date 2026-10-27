@@ -3,11 +3,11 @@ import { useReveal } from './useReveal'
 const pubs = [
   {
     year: '2026',
-    status: 'Accepted',
+    status: 'Published',
     title: 'DeepFake Detection and Localization for Video Content',
     venue: 'RECCAP 2026 — International Conference on Recent Trends in Computing, Communication and Applied Physics',
-    doi: null,
-    highlight: true,
+    doi: 'https://doi.org/10.1109/RECCAP69368.2026.11724131',
+    highlight: false,
   },
   {
     year: '2024',
